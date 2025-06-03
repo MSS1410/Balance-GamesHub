@@ -963,59 +963,59 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Asegura que el contenido esté centrado verticalmente */
+    height: 100vh;
     text-align: center;
   }
 
   #textDiv {
-    max-width: 90vw; /* Limita el ancho del texto para evitar desbordamiento */
-    padding: 2vh 5vw; /* Añade algo de padding para que no quede pegado a los bordes */
+    max-width: 90vw;
+    padding: 2vh 5vw;
   }
 
   .textToe {
-    font-size: 4vw; /* Tamaño de fuente ajustado para pantallas pequeñas */
-    line-height: 1.4; /* Espaciado entre líneas para mejorar la legibilidad */
+    font-size: 4vw;
+    line-height: 1.4;
   }
   .tituloToe {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12vw; /* Tamaño ajustado para pantallas pequeñas */
+    font-size: 12vw;
     text-align: center;
-    margin-top: 2vh; /* Espacio superior para separación */
+    margin-top: 2vh;
   }
   .tituloContainer {
-    margin-bottom: 5vh; /* Espacio debajo del subtítulo para que no toque la mesa */
+    margin-bottom: 5vh;
   }
   .subtituloPlayer {
     font-size: 6vw;
-    margin-bottom: 4vh; /* Ajuste adicional para evitar solapamiento */
+    margin-bottom: 4vh;
   }
   .texturned {
     font-size: 4vw;
-    margin-top: 4vh; /* Espacio sobre la mesa */
-    margin-bottom: 2vh; /* Espacio debajo del texto */
+    margin-top: 4vh;
+    margin-bottom: 2vh;
   }
   .buttss {
     font-size: 3.5vw;
     padding: 1vh 3vw;
-    margin-top: 2vh; /* Añade un margen superior para separar del texto */
+    margin-top: 2vh;
   }
 }
-/* para tableta mamauevo */
+/* para tableta  */
 @media (min-width: 481px) and (max-width: 1024px) {
   #ToeContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Centra el contenido verticalmente en pantalla */
+    height: 100vh;
     text-align: center;
   }
 
   #textDiv {
-    max-width: 80vw; /* Limita el ancho para evitar que el texto se extienda demasiado */
-    padding: 3vh 4vw; /* Espacio adicional para una mejor separación de bordes */
+    max-width: 80vw;
+    padding: 3vh 4vw;
   }
   #formuPlay h2 {
     font-size: 4vw;
@@ -1036,14 +1036,14 @@ body {
   }
 
   .textToe {
-    font-size: 3.5vw; /* Ajuste del tamaño de fuente para tablets */
-    line-height: 1.5; /* Espaciado entre líneas para mejorar la legibilidad */
+    font-size: 3.5vw;
+    line-height: 1.5;
   }
 
   .buttss {
     font-size: 5vw;
     padding: 1.5vh 4vw;
-    margin-top: 3vh; /* Margen superior para separar el botón del texto */
+    margin-top: 3vh;
   }
   .finalButts {
     font-size: 3vw;
@@ -1054,9 +1054,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4.5vw; /* Tamaño ajustado para tablets */
+    font-size: 4.5vw;
     text-align: center;
-    margin-top: 3vh; /* Espacio superior para separación */
+    margin-top: 3vh;
   }
   .tituloContainer {
     margin-bottom: 4vh;
